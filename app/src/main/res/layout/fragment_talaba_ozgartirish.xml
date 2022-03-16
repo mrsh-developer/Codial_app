@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".yolanishlar.TalabaOzgartirish">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#FFB800"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+
+        <LinearLayout
+            android:id="@+id/ozgartirish_orqaga_talaba_qoshish"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:src="@drawable/ic_baseline_arrow_back_24" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/ozgaritirilmoqda_tol_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Malumotlar O'zgartirilmoqda"
+                android:textColor="#BE000000"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/qoshishKurslar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5">
+
+            <ImageView
+                android:id="@+id/qoshishMentorlar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="19dp"
+                android:src="@drawable/ic_baseline_add_24"
+                android:visibility="invisible" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:paddingStart="10dp"
+            android:id="@+id/ozgartirish_talaba_familyasi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_edit_text"
+            android:hint="Familya" />
+
+        <EditText
+            android:paddingStart="10dp"
+            android:id="@+id/ozgartirish_talaba_ismi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_edit_text"
+            android:hint="Ismi" />
+
+        <EditText
+            android:paddingStart="10dp"
+            android:id="@+id/ozgartirish_talaba_otasini_ismi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_edit_text"
+            android:hint="Otasini Ismi" />
+
+        <EditText
+            android:paddingStart="10dp"
+            android:id="@+id/ozgartirish_talaba_tel_raqami"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="phone"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_edit_text"
+            android:hint="Telepone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right|bottom"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#FFB800"
+                app:cardCornerRadius="10dp">
+
+                <TextView
+                    android:id="@+id/ozgartirish_saqlash_talaba"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Ozgartirish"
+                    android:textColor="#BE000000"
+                    android:textSize="20sp" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

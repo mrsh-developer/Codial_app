@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/asosiyEkranFragmenti">
+
+    <fragment
+        android:id="@+id/asosiyEkranFragmenti"
+        android:name="mrsh.com.a63codialapp.yolanishlar.AsosiyEkranFragmenti"
+        android:label="fragment_asosiy_ekran_fragmenti"
+        tools:layout="@layout/fragment_asosiy_ekran_fragmenti" />
+    <fragment
+        android:id="@+id/kurslar"
+        android:name="mrsh.com.a63codialapp.yolanishlar.Kurslar"
+        android:label="fragment_kurslar"
+        tools:layout="@layout/fragment_kurslar" />
+    <fragment
+        android:id="@+id/guruhlar"
+        android:name="mrsh.com.a63codialapp.yolanishlar.Guruhlar"
+        android:label="fragment_guruhlar"
+        tools:layout="@layout/fragment_guruhlar" />
+    <fragment
+        android:id="@+id/mentorlar"
+        android:name="mrsh.com.a63codialapp.yolanishlar.Mentorlar"
+        android:label="fragment_mentorlar"
+        tools:layout="@layout/fragment_mentorlar" />
+    <fragment
+        android:id="@+id/malumotKurslar"
+        android:name="mrsh.com.a63codialapp.yolanishlar.MalumotKurslar"
+        android:label="fragment_malumot_kurslar"
+        tools:layout="@layout/fragment_malumot_kurslar" />
+    <fragment
+        android:id="@+id/malumotlarGuruhlar"
+        android:name="mrsh.com.a63codialapp.yolanishlar.MalumotlarGuruhlar"
+        android:label="fragment_malumotlar_guruhlar"
+        tools:layout="@layout/fragment_malumotlar_guruhlar" />
+    <fragment
+        android:id="@+id/ochilganGuruhlar"
+        android:name="mrsh.com.a63codialapp.yolanishlar.OchilganGuruhlar"
+        android:label="fragment_ochilgan_guruhlar"
+        tools:layout="@layout/fragment_ochilgan_guruhlar" />
+    <fragment
+        android:id="@+id/ochilayotganGuruhlar"
+        android:name="mrsh.com.a63codialapp.yolanishlar.OchilayotganGuruhlar"
+        android:label="fragment_ochilayotgan_guruhlar"
+        tools:layout="@layout/fragment_ochilayotgan_guruhlar" />
+    <fragment
+        android:id="@+id/malumotlarMentorlar"
+        android:name="mrsh.com.a63codialapp.yolanishlar.MalumotlarMentorlar"
+        android:label="fragment_malumotlar_mentorlar"
+        tools:layout="@layout/fragment_malumotlar_mentorlar" />
+    <fragment
+        android:id="@+id/mentorMalumotOlish"
+        android:name="mrsh.com.a63codialapp.yolanishlar.MentorMalumotOlish"
+        android:label="fragment_mentor_malumot_olish"
+        tools:layout="@layout/fragment_mentor_malumot_olish" />
+    <fragment
+        android:id="@+id/guruhMalumotOlish"
+        android:name="mrsh.com.a63codialapp.yolanishlar.GuruhMalumotOlish"
+        android:label="fragment_guruh_malumot_olish"
+        tools:layout="@layout/fragment_guruh_malumot_olish" />
+    <fragment
+        android:id="@+id/showGruppalar"
+        android:name="mrsh.com.a63codialapp.yolanishlar.ShowGruppalar"
+        android:label="fragment_show_gruppalar"
+        tools:layout="@layout/fragment_show_gruppalar" />
+    <fragment
+        android:id="@+id/itemFragmentViewPager"
+        android:name="mrsh.com.a63codialapp.yolanishlar.ItemFragmentViewPager"
+        android:label="fragment_item_view_pager"
+        tools:layout="@layout/fragment_item_view_pager" />
+    <fragment
+        android:id="@+id/talabaQoshish"
+        android:name="mrsh.com.a63codialapp.yolanishlar.TalabaQoshish"
+        android:label="fragment_talaba_qoshish"
+        tools:layout="@layout/fragment_talaba_qoshish" />
+    <fragment
+        android:id="@+id/talabaOzgartirish"
+        android:name="mrsh.com.a63codialapp.yolanishlar.TalabaOzgartirish"
+        android:label="fragment_talaba_ozgartirish"
+        tools:layout="@layout/fragment_talaba_ozgartirish" />
+</navigation>

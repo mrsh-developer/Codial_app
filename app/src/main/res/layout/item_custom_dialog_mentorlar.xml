@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:background="@null"
+    android:backgroundTint="@null"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="50dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:paddingStart="10dp"
+                android:id="@+id/mentor_familyasi"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/background_edit_text"
+                android:hint="Familya" />
+
+            <EditText
+                android:paddingStart="10dp"
+                android:id="@+id/mentor_ismi"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/background_edit_text"
+                android:hint="Ismi" />
+
+            <EditText
+                android:paddingStart="10dp"
+                android:id="@+id/mentor_otasini_ismi"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/background_edit_text"
+                android:hint="Otasini Ismi" />
+
+            <EditText
+                android:paddingStart="10dp"
+                android:id="@+id/mentor_tel_raqami"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:inputType="phone"
+                android:background="@drawable/background_edit_text"
+                android:hint="Telepone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right|bottom"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/yopish_ozgargan_mentorlar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="30dp"
+                    android:text="Yopish"
+                    android:textColor="#1A4E79"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/ozgartirish_mentorlarni_malumotlarini"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ozgartirish"
+                    android:textColor="#FFB800"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
